@@ -4,7 +4,7 @@
     "isSale": true,
     "isExclusive": false,
     "price": "$18.88",
-    "productImage": "product-1.jpg",
+    "productImage": "./Images/product-1.jpg",
     "productName": "Striped shirt",
     "size": ["XS", "S", "L", "XL"]
   },
@@ -13,7 +13,7 @@
     "isSale": false,
     "isExclusive": false,
     "price": "$25.44",
-    "productImage": "product-2.jpg",
+    "productImage": "./Images/product-2.jpg",
     "productName": "Denim shirt",
     "size": ["XS", "S"]
   },
@@ -22,7 +22,7 @@
     "isSale": false,
     "isExclusive": true,
     "price": "$12.93",
-    "productImage": "product-3.jpg",
+    "productImage": "./Images/product-3.jpg",
     "productName": "Plain cotton t-shirt",
     "size": ["S", "M"]
   },
@@ -31,7 +31,7 @@
     "isSale": false,
     "isExclusive": false,
     "price": "$26.32",
-    "productImage": "product-4.jpg",
+    "productImage": "./Images/product-4.jpg",
     "productName": "Plain 3/4 sleeve cotton t-shirt",
     "size": ["XL"]
   },
@@ -40,7 +40,7 @@
     "isSale": false,
     "isExclusive": false,
     "price": "$12.16",
-    "productImage": "product-5.jpg",
+    "productImage": "./Images/product-5.jpg",
     "productName": "White dress shirt",
     "size": ["M", "L"]
   },
@@ -49,7 +49,7 @@
     "isSale": false,
     "isExclusive": false,
     "price": "$30.27",
-    "productImage": "product-6.jpg",
+    "productImage": "./Images/product-6.jpg",
     "productName": "Long Sleeve Skivvy Top",
     "size": ["XS", "S", "M"]
   },
@@ -58,7 +58,7 @@
     "isSale": true,
     "isExclusive": false,
     "price": "$24.26",
-    "productImage": "product-7.jpg",
+    "productImage": "./Images/product-7.jpg",
     "productName": "Puffer Vest with Hood",
     "size": ["M", "L", "XL"]
   },
@@ -67,7 +67,7 @@
     "isSale": false,
     "isExclusive": true,
     "price": "$17.73",
-    "productImage": "product-8.jpg",
+    "productImage": "./Images/product-8.jpg",
     "productName": "Funnel Neck Swing Top",
    "size": ["XS", "S", "XL"]
   }

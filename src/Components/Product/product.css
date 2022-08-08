@@ -1,0 +1,13 @@
+.productStatus {
+    position: relative;
+    width: 100px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    background-color: brown;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.productStatus p {
+    margin: 0 auto;
+}
