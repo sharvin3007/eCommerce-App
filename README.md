@@ -1,17 +1,29 @@
 # eCommerce App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a responsive front-end application built in React project.
 
 ## App Overview
 
-React was used to build this project. The app focuses on allowing users to choose between several t-shirt sizes for female clothing and based on the information, options are displayed. Using the useEffect Hook and Fetch API, data is collected from an external JSON file and incorporated into the application. This application also exercises extensions like Prettier and ESLint.
+This project was built in React. The app focuses on allowing users to choose between several t-shirt sizes for female clothing and based on the information, options are displayed. Using the useEffect Hook and Fetch API, data is collected from an external JSON file and incorporated into the application.
+
+## Linting
+
+ESLint is used to lint the application code.
+```
+# Run Linter
+`npm run lint` 
+
+# Auto Fix ESLint Issues
+`npm run lint:fix`
+```
 
 ## Technology
 
-* HTML
-* CSS
+* HTML5
+* CSS3
 * JavaScript
-* React
+* React (v.18.2.0)
+* Bootstrap (v.5.2.0)
 
 ## Available Scripts
 
