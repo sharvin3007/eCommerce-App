@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Product from "../../Components/Product/Product";
 import "./home.css";
+import productData from "../../data/products.json";
 
 const Home = () => {
+  const [product, setProduct] = useState(productData);
+  console.log(product);
+
   return (
     <>
       <div className="header">
@@ -10,7 +14,16 @@ const Home = () => {
           <h2 className="col-12 text-left my-3 fw-bold">Women's Tops</h2>
         </div>
       </div>
-      <Product />
+      {/* creating room component */}
+      <div className="content">
+        <div className="products container-fluid">
+          <div className="row justify-content-left mx-5 my-5">
+            {product.map((prodObj) => (
+              <Product dataPacket={prodObj} key={prodObj.index} />
+            ))}
+          </div>
+        </div>
+      </div>
     </>
   );
 };

@@ -3,11 +3,22 @@
     width: 100px;
     border: 1px solid lightgray;
     padding: 5px;
-    background-color: brown;
     color: #fff;
     margin: 0 auto;
 }
 
+.productStatus.sale {
+    background-color: brown;
+}
+
+.productStatus.exclusive {
+    background-color: green;
+}
+
 .productStatus p {
     margin: 0 auto;
+}
+
+.productDetails {
+    margin-top: 10px;
 }
