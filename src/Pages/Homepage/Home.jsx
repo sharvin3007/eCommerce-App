@@ -5,7 +5,6 @@ import productData from "../../data/products.json";
 
 const Home = () => {
   const [product, setProduct] = useState(productData);
-  console.log(product);
 
   return (
     <>
