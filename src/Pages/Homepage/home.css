@@ -26,3 +26,9 @@ h2 {
     text-align: left;  
 }
 
+@media screen and (max-width: 768px) {
+    .headerContainer {
+        height: 90px;
+        z-index: 1;
+    }
+}
