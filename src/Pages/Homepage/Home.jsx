@@ -5,13 +5,14 @@ import Filter from "../../Components/Filter/Filter";
 import { Circles } from "react-loader-spinner";
 
 const Home = () => {
-  const [data, setData] = useState("");
+  const [productData, setProductData] = useState("");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  // State defining selected size by user
   const [sizeType, setSizeType] = useState("");
 
-  // Callback function to fetch user selection for sizes and pass to filter component
+  // Callback function to fetch user size selection
   const handleSize = (typeData) => {
     setSizeType(typeData);
   };
@@ -25,8 +26,8 @@ const Home = () => {
         }
         throw response;
       })
-      .then((data) => {
-        setData(data);
+      .then((productData) => {
+        setProductData(productData);
       })
       .catch((error) => {
         console.error("Error fetching data: ", error);
@@ -37,28 +38,37 @@ const Home = () => {
       });
   }, []);
 
-  console.log(sizeType)
+  // Filter based on selected user size
+  function showFilteredProduct() {
+    if (sizeType && productData) {
+      return productData.filter((product) => {
+        return product.size.includes(sizeType);
+      });
+    } else return productData;
+  }
+
+  if (error) return "Error!";
 
   return (
     <>
       {loading ? (
         <div className="pageLoader">
-          <Circles color="#00BFFF" height={80} width={80} />
+          <Circles color="lightblue" height={80} width={80} />
         </div>
       ) : (
         <>
           <div className="header">
             <div className="headerContainer">
-              <h2 className="col-md-9 col-sm-1 text-left my-3 fw-bold">
+              <h2 className="col-md-9 col-sm-1 text-left my-3 fw-bold title">
                 Women's Tops
               </h2>
               <Filter typeCallback={handleSize} />
             </div>
           </div>
           <div className="content">
-            <div className="products container-fluid">
+            <div className="products ">
               <div className="row justify-content-left mx-5 my-5">
-                {data.map((prodObj) => (
+                {showFilteredProduct().map((prodObj) => (
                   <Product dataPacket={prodObj} key={prodObj.index} />
                 ))}
               </div>

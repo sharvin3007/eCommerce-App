@@ -11,7 +11,7 @@ const Product = (props) => {
         <img
           className="product-photo"
           alt="Onsale product"
-          src={'./Images/' + props.dataPacket.productImage}
+          src={"./Images/" + props.dataPacket.productImage}
         />
       </div>
       <div className="product-body">

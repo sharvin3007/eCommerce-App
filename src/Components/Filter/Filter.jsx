@@ -3,19 +3,18 @@ import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
 import "./filter.css";
 
-
 const sizes = ["XS", "S", "M", "L", "XL"];
 const defaultOption = sizes[0];
 
 const Filter = (props) => {
   const [size, setSize] = useState(defaultOption);
 
-  // Fetch value and pass it to parent
+  // Function to pass size-selection and pass it to parent
   const handleSelection = (e) => {
-    const selectedVal = e.value
-    setSize(selectedVal)
-    props.typeCallback(selectedVal)
-  }
+    const selectedVal = e.value;
+    setSize(selectedVal);
+    props.typeCallback(selectedVal);
+  };
 
   return (
     <>
