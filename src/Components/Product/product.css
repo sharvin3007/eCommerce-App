@@ -13,6 +13,10 @@
     margin: 0 auto;
 }
 
+.productStatus.null {
+    display: none;
+}
+
 .productStatus.sale {
     background-color: brown;
 }
@@ -27,4 +31,7 @@
 
 .productDetails {
     margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
