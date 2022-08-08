@@ -4,7 +4,7 @@ This is a responsive front-end application built in React project.
 
 ## App Overview
 
-This project was built in React. The app focuses on allowing users to choose between several t-shirt sizes for female clothing and based on the information, options are displayed. Using the useEffect Hook and Fetch API, data is collected from an external JSON file and incorporated into the application.
+This project was built in React. The app focuses on allowing users to choose between several t-shirt sizes for female clothing and based on the information, options are displayed. Using the useEffect Hook and Fetch API, data is collected from an external JSON file and incorporated into the application. To start you can simply [download](https://github.com/sharvin3007/eCommerce-App/archive/master.zip) the boilerplate and unzip it into your working directory. You can also clone if you wish to contribute.
 
 ## Technology
 
@@ -50,9 +50,13 @@ ESLint is used to lint the application code.
 # Run Linter
 npm run lint
 
-# Auto Fix ESLint Issues
+# Auto-Fix ESLint Issues
 npm run lint:fix
 ```
+
+## Contributing
+
+Suggestions or pull requests are welcome.
 
 ## Learn More
 
