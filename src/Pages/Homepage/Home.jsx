@@ -2,15 +2,20 @@ import React, { useState } from "react";
 import Product from "../../Components/Product/Product";
 import "./home.css";
 import productData from "../../data/products.json";
+import Filter from "../../Components/Filter/Filter";
 
 const Home = () => {
   const [product, setProduct] = useState(productData);
+  product.map((obj) => (
+    console.log(obj.size)
+  ))
 
   return (
     <>
       <div className="header">
         <div className="headerContainer">
           <h2 className="col-12 text-left my-3 fw-bold">Women's Tops</h2>
+          <Filter />
         </div>
       </div>
       {/* creating room component */}
