@@ -6,26 +6,12 @@ This is a responsive front-end application built in React project.
 
 This project was built in React. The app focuses on allowing users to choose between several t-shirt sizes for female clothing and based on the information, options are displayed. Using the useEffect Hook and Fetch API, data is collected from an external JSON file and incorporated into the application.
 
-## Linting
-
-ESLint is used to lint the application code.
-```
-# Run Linter
-`npm run lint` 
-
-# Auto Fix ESLint Issues
-`npm run lint:fix`
-```
-
 ## Technology
 
-* HTML5
-* CSS3
-* JavaScript
 * React (v.18.2.0)
 * Bootstrap (v.5.2.0)
 
-## Available Scripts
+## Usage
 
 In the project directory, you can run:
 
@@ -56,6 +42,17 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Linting
+
+ESLint is used to lint the application code. 
+```
+# Run Linter
+npm run lint
+
+# Auto Fix ESLint Issues
+npm run lint:fix
+```
 
 ## Learn More
 

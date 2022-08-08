@@ -1,9 +1,9 @@
-import React from "react";
-import "./product.css";
+import React from 'react'
+import './product.css'
 
 const Product = (props) => {
-  const exclusive = props.dataPacket.isExclusive;
-  const sale = props.dataPacket.isSale;
+  const exclusive = props.dataPacket.isExclusive
+  const sale = props.dataPacket.isSale
 
   return (
     <div className="col-lg-3 col-sm-6 col-xs-1 card my-3 py-3 border-0">
@@ -11,21 +11,25 @@ const Product = (props) => {
         <img
           className="product-photo"
           alt="Onsale product"
-          src={"./Images/" + props.dataPacket.productImage}
+          src={'./Images/' + props.dataPacket.productImage}
         />
       </div>
       <div className="product-body">
         {/* Conditional rendering based on product type (exclusive and sale) */}
-        {exclusive ? (
+        {exclusive
+          ? (
           <div className="productStatus exclusive">
             <p>Exclusive</p>
           </div>
-        ) : null}
-        {sale ? (
+            )
+          : null}
+        {sale
+          ? (
           <div className="productStatus sale">
             <p>Sale</p>
           </div>
-        ) : null}
+            )
+          : null}
         {/* Conditional rendering based on product type (exclusive and sale) */}
         <div className="productDetails">
           <span className="product-title mx-3">
@@ -35,7 +39,7 @@ const Product = (props) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Product;
+export default Product
