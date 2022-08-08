@@ -1,6 +1,6 @@
 # eCommerce App
 
-This is a responsive front-end application built in React project.
+This is a responsive front-end application built in React.
 
 ## App Overview
 
