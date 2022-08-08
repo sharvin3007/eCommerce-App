@@ -10,8 +10,8 @@ const Product = (props) => {
       <div className="product-img text-center">
         <img
           className="product-photo"
-          alt="First product"
-          src={props.dataPacket.productImage}
+          alt="Onsale product"
+          src={'./Images/' + props.dataPacket.productImage}
         />
       </div>
       <div className="product-body">
