@@ -15,7 +15,16 @@ To start you can simply [download](https://github.com/sharvin3007/eCommerce-App/
 
 ## Usage
 
-In the project directory, you can run:
+
+
+In the project directory, you can start by running:
+
+### `npm install`
+
+This is to ensure all dependencies are downloaded. 
+After a fresh clone, there is likely to be no `node_modules` since that is `.gitignore`'d.
+
+Alternately, if `node_modules` exists, remove it with `rm -rf node_modules` and then run `npm install`
 
 ### `npm start`
 
