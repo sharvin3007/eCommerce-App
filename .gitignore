@@ -16,6 +16,11 @@ cypress.env.json
 # production
 /build
 
+# Cypress
+/cypress/videos
+cypress/screenshots/
+cypress.env.json
+
 # misc
 .DS_Store
 .env.local
