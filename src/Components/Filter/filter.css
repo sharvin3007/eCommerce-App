@@ -1,0 +1,15 @@
+.filterContainer {
+  margin-right: 10px;
+}
+
+.Dropdown-root {
+  float: right;
+  right: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .Dropdown-root {
+    width: 120px;
+    right: 0;
+  }
+}
