@@ -29,11 +29,6 @@ Alternately, if `node_modules` exists, remove it with `rm -rf node_modules` and 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -56,7 +51,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 Component tests have been written in Cypress.
 ```
-# Open Cypress component testing interactive mode
+# Open Cypress component testing interactive UI mode
 npm run test:component:ui
 
 # Run all Cypress component testing suites
