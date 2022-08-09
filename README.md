@@ -56,9 +56,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 Component tests have been written in Cypress.
 ```
-# Install Cypress to get started
-npm install cypress --save-dev or yarn add cypress --dev
-
 # Open Cypress component testing interactive mode
 npm run test:component:ui
 
